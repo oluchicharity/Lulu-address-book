@@ -98,6 +98,7 @@ const appRouter = router({
           }));
         }
 
+        
         return users.map((user: PrismaUser) => ({
           id: user.id,
           name: user.name,
